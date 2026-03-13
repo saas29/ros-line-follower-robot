@@ -1,33 +1,20 @@
-ROS2 Robot Simulation Project
- Project Description
+# ROS2 Robot Simulation
 
-This project demonstrates a basic robot simulation using ROS2, Gazebo, and RViz. The robot is modeled using URDF and simulated in a virtual environment to visualize its movement and structure.
+A hands-on project that builds a basic robot simulation using ROS2, Gazebo, and RViz. The robot is described in URDF and dropped into a virtual world where you can watch it move and tweak its joints in real time.
 
-The project helps beginners understand how to:
+I built this while learning ROS2 — it's not production code, but it covers enough ground to be useful if you're figuring out how ROS2 packages fit together or how to get a robot model running in simulation.
 
-Create and organize a ROS2 package
+---
 
-Design a robot using URDF
+## What's Inside
 
-Run robot simulations in Gazebo
+- A URDF robot model
+- Gazebo world file for simulation
+- RViz config for visualization
+- A Python node that sends joint commands
+- Launch files for both Gazebo and RViz
 
-Visualize the robot in RViz
-
-Use Python nodes to control robot joints
-
-🛠 Technologies Used
-
-ROS2
-
-Gazebo Simulator
-
-RViz Visualization Tool
-
-Python
-
-URDF (Unified Robot Description Format)
-
-📂 Project Structure
+```
 ros2_robot_simulation/
 │
 ├── launch/
@@ -48,65 +35,73 @@ ros2_robot_simulation/
 │
 └── config/
     └── robot_parameters.yaml
+```
 
-    
-⚙️ Installation
+---
 
-1️ Clone the repository
+## Technologies
+
+- ROS2
+- Gazebo
+- RViz
+- Python
+- URDF
+
+---
+
+## Setup
+
+Clone the repo:
+```bash
 git clone https://github.com/your-username/ros2_robot_simulation.git
-
-2️ Navigate to the workspace
 cd ros2_robot_simulation
+```
 
-3️ Build the project
+Build and source:
+```bash
 colcon build
-
-4️ Source the workspace
 source install/setup.bash
+```
 
-Running the Simulation
+---
 
-Launch Gazebo
+## Running It
+
+Start the Gazebo simulation:
+```bash
 ros2 launch simple_robot_description gazebo.launch.py
+```
 
-Launch RViz
+Open RViz in a separate terminal:
+```bash
 ros2 launch simple_robot_description rviz.launch.py
+```
 
- Features
+---
 
-Robot modeled using URDF
+## What You'll Learn
 
-Simulation environment using Gazebo
+- How ROS2 workspaces and packages are structured
+- Writing robot models in URDF
+- Setting up launch files
+- Running Gazebo simulations
+- Writing basic ROS2 Python nodes
 
-Robot visualization using RViz
+Good starting point if you've done the ROS2 tutorials and want something concrete to dig into.
 
-Python node to control robot joint movement
+---
 
-Organized ROS2 package structure
+## Author
 
- Learning Outcomes
-
-Through this project, you will learn:
-
-ROS2 workspace and package structure
-
-Robot modeling with URDF
-
-Simulation using Gazebo
-
-Robot visualization using RViz
-
-Writing Python nodes in ROS2
-
- License
-
-This project is licensed under the MIT License.
-
- Authors
- 
-Sashank Sai 
-A vijay Kiran Reddy
-Koluri Tulasi Ram
-charan
-B.Tech – AI & Data Science
+**Sashank** 
+**A vijay Kiran Reddy**
+**Koluri Tulasi Ram**
+**charan**
+B.Tech – AI & Data Science  
 Amrita Vishwa Vidyapeetham
+
+---
+
+## License
+
+MIT
