@@ -2,7 +2,7 @@
 
 A hands-on project that builds a basic robot simulation using ROS2, Gazebo, and RViz. The robot is described in URDF and dropped into a virtual world where you can watch it move and tweak its joints in real time.
 
-I built this while learning ROS2 — it's not production code, but it covers enough ground to be useful if you're figuring out how ROS2 packages fit together or how to get a robot model running in simulation.
+We built this while learning ROS2 — it's not production code, but it covers enough ground to be useful if you're figuring out how ROS2 packages fit together or how to get a robot model running in simulation.
 
 ---
 
