@@ -1,61 +1,102 @@
-Project Overview
+ROS2 Robot Simulation Project
+📌 Project Description
 
-This project demonstrates a simple robot simulation using ROS2, Gazebo, and RViz.
-The robot is modeled using URDF/Xacro and can be visualized and controlled inside the ROS2 environment.
+This project demonstrates a basic robot simulation using ROS2, Gazebo, and RViz. The robot is modeled using URDF and simulated in a virtual environment to visualize its movement and structure.
 
-The simulation includes:
+The project helps beginners understand how to:
 
-A 1-DOF robotic arm
+Create and organize a ROS2 package
 
-A Gazebo simulation world
+Design a robot using URDF
 
-A track model
+Run robot simulations in Gazebo
 
-Visualization using RViz
+Visualize the robot in RViz
 
-A joint commander node for controlling the robot joint
-
-This project helps beginners understand:
-
-ROS2 package structure
-
-URDF/Xacro robot modeling
-
-Launch files in ROS2
-
-Gazebo simulation integration
+Use Python nodes to control robot joints
 
 🛠 Technologies Used
 
 ROS2
 
-Gazebo
+Gazebo Simulator
 
-RViz
+RViz Visualization Tool
 
 Python
 
-URDF / Xacro
+URDF (Unified Robot Description Format)
 
 📂 Project Structure
-ros2_project
+ros2_robot_simulation/
 │
-├── launch
+├── launch/
 │   ├── gazebo.launch.py
 │   └── rviz.launch.py
 │
-├── models
-│   ├── arm_1dof
-│   └── track
+├── node/
+│   └── joint_commander.py
 │
-├── worlds
-│   └── empty.world
+├── urdf/
+│   └── robot_model.urdf
 │
-├── config
-│   └── arm_1dof.yaml
+├── worlds/
+│   └── simulation_world.world
 │
-├── rviz
-│   └── arm.rviz
+├── rviz/
+│   └── robot_config.rviz
 │
-└── simple_robot_description
-    └── joint_commander.py
+└── config/
+    └── robot_parameters.yaml
+⚙️ Installation
+1️⃣ Clone the repository
+git clone https://github.com/your-username/ros2_robot_simulation.git
+2️⃣ Navigate to the workspace
+cd ros2_robot_simulation
+3️⃣ Build the project
+colcon build
+4️⃣ Source the workspace
+source install/setup.bash
+🚀 Running the Simulation
+Launch Gazebo
+ros2 launch simple_robot_description gazebo.launch.py
+Launch RViz
+ros2 launch simple_robot_description rviz.launch.py
+🤖 Features
+
+Robot modeled using URDF
+
+Simulation environment using Gazebo
+
+Robot visualization using RViz
+
+Python node to control robot joint movement
+
+Organized ROS2 package structure
+
+📚 Learning Outcomes
+
+Through this project, you will learn:
+
+ROS2 workspace and package structure
+
+Robot modeling with URDF
+
+Simulation using Gazebo
+
+Robot visualization using RViz
+
+Writing Python nodes in ROS2
+
+📜 License
+
+This project is licensed under the MIT License.
+
+👨‍💻 Author
+
+Sashank Sai 
+A vijay Kiran Reddy
+Koluri Tulasi Ram
+charan
+B.Tech – AI & Data Science
+Amrita Vishwa Vidyapeetham
