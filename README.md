@@ -1,5 +1,5 @@
 ROS2 Robot Simulation Project
-📌 Project Description
+ Project Description
 
 This project demonstrates a basic robot simulation using ROS2, Gazebo, and RViz. The robot is modeled using URDF and simulated in a virtual environment to visualize its movement and structure.
 
@@ -51,20 +51,28 @@ ros2_robot_simulation/
 
     
 ⚙️ Installation
-1️⃣ Clone the repository
+
+1️ Clone the repository
 git clone https://github.com/your-username/ros2_robot_simulation.git
-2️⃣ Navigate to the workspace
+
+2️ Navigate to the workspace
 cd ros2_robot_simulation
-3️⃣ Build the project
+
+3️ Build the project
 colcon build
-4️⃣ Source the workspace
+
+4️ Source the workspace
 source install/setup.bash
-🚀 Running the Simulation
+
+Running the Simulation
+
 Launch Gazebo
 ros2 launch simple_robot_description gazebo.launch.py
+
 Launch RViz
 ros2 launch simple_robot_description rviz.launch.py
-🤖 Features
+
+ Features
 
 Robot modeled using URDF
 
@@ -76,7 +84,7 @@ Python node to control robot joint movement
 
 Organized ROS2 package structure
 
-📚 Learning Outcomes
+ Learning Outcomes
 
 Through this project, you will learn:
 
@@ -90,12 +98,12 @@ Robot visualization using RViz
 
 Writing Python nodes in ROS2
 
-📜 License
+ License
 
 This project is licensed under the MIT License.
 
-👨‍💻 Author
-
+ Authors
+ 
 Sashank Sai 
 A vijay Kiran Reddy
 Koluri Tulasi Ram
