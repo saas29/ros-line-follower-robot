@@ -91,12 +91,9 @@ Good starting point if you've done the ROS2 tutorials and want something concret
 
 ---
 
-## Author
+## Authors
 
-**Sashank** 
-**A vijay Kiran Reddy**
-**Koluri Tulasi Ram**
-**charan**
+**Sashank** · **A Vijay Kiran Reddy** · **Koluri Tulasi Ram** · **Charan**  
 B.Tech – AI & Data Science  
 Amrita Vishwa Vidyapeetham
 
