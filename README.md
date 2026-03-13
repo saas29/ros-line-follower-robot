@@ -48,6 +48,8 @@ ros2_robot_simulation/
 │
 └── config/
     └── robot_parameters.yaml
+
+    
 ⚙️ Installation
 1️⃣ Clone the repository
 git clone https://github.com/your-username/ros2_robot_simulation.git
